@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.app.smartpos.R;
-import com.app.smartpos.SharedPrefManager;
+
 import com.app.smartpos.Storage.SheardPreManger;
 import com.app.smartpos.customers.CustomersActivity;
 import com.app.smartpos.expense.ExpenseActivity;
@@ -57,12 +57,8 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_home);
 
         getSupportActionBar().setTitle(R.string.app_name);
-       // getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.actionbar_gradient));
         getSupportActionBar().setElevation(0);
-//        if (!SharedPrefManager.getInstance(this).isLoggedIn()) {
-//            finish();
-//            startActivity(new Intent(this, LoginActivity.class));
-//        }
+
         cardCustomers = findViewById(R.id.card_customers);
         cardSupplier = findViewById(R.id.card_suppliers);
         cardProducts = findViewById(R.id.card_products);
@@ -77,17 +73,6 @@ public class HomeActivity extends BaseActivity {
             requestPermission();
 
         }
-
-//        Admob initialization
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
-       /* adView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
-*/
 
         cardCustomers.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -169,25 +154,6 @@ public class HomeActivity extends BaseActivity {
         });
     }
 
- /*  @Override
-    protected void onStart() {
-        super.onStart();
-        //checkSession();
-        if (SheardPreManger.getInstance(this).isLoggedIn()){
-            Intent intent=new Intent(HomeActivity.this,HomeActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-
-
-        }
-    }*/
-
-    public void logout() {
-        SheardPreManger.getInstance(getApplicationContext()).clear();
-        Intent intent=new Intent(getApplicationContext(),LoginActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
-    }
 
 
 
@@ -204,9 +170,6 @@ public class HomeActivity extends BaseActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
-            case R.id.action_login:
-                logout();
-              return true;
 
             case R.id.local_English:
                 setNewLocale(this, LocaleManager.ENGLISH);

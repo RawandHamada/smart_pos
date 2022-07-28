@@ -3,8 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_add_category.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_add_customers.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_add_expense.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_add_payment_method.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_add_product.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_add_suppliers.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_backup.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_categories.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_customers.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_edit_category.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_edit_product.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_edit_product_scanner_view.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_edit_suppliers.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_expense.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_expense_graph.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_graph_report.xml" value="0.22291666666666668" />
         <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_home.xml" value="0.13858695652173914" />
         <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/payment_method_item.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/pos_product_item.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/sales_report_item.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/layout/supplier_item.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/LEGION5/AndroidStudioProjects/Android projects/SmartPOS/app/src/main/res/menu/language_menu.xml" value="0.1796875" />
       </map>
     </option>
   </component>
